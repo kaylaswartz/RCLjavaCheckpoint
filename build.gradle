@@ -28,7 +28,7 @@ jar {
 
         attributes(
                 'Class-Path': configurations.implementation.collect { it.getName() }.join(' '),
-                'Main-Class': 'com.statefarm.ProjectCheckpoint'
+                'Main-Class': 'com.statefarm.SumOfPositivesCLI'
         )
     }
 }
